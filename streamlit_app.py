@@ -3,6 +3,13 @@ import altair as alt
 import math
 import pandas as pd
 import streamlit as st
+import numpy as np
+import matplotlib.pyplot as plt
+import seaborn as sns
+import streamlit as st
+import pandas as pd
+import folium
+from streamlit_folium import st_folium
 
 """
 # Welcome to Streamlit!
@@ -14,6 +21,9 @@ forums](https://discuss.streamlit.io).
 
 In the meantime, below is an example of what you can do with just a few lines of code:
 """
+st.set_page_config(page_title='제주도 보험 영업시장 개척', 
+                   layout='wide', 
+                   page_icon='🏝')
 
 
 with st.echo(code_location='below'):
